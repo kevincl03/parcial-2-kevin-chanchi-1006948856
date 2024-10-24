@@ -23,3 +23,5 @@ const conactArrays: number[] = array1.concat(array2);
 const array3: number[] = [5, 1, 4, 2, 3];
 const orderArray: number[] = array3.sort((a, b) => a - b);
 const reverseArray: number[] = orderArray.reverse();
+const names: string[] = ['Kevin', 'Andres', 'Camila', 'Sara'];
+const orderNames: string[] = names.sort();
