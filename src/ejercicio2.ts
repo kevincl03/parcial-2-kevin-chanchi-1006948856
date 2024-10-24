@@ -25,3 +25,4 @@ const orderArray: number[] = array3.sort((a, b) => a - b);
 const reverseArray: number[] = orderArray.reverse();
 const names: string[] = ['Kevin', 'Andres', 'Camila', 'Sara'];
 const orderNames: string[] = names.sort();
+const numberInclude: boolean = arrayNum.includes(4);
