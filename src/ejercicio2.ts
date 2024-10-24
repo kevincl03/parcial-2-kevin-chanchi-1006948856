@@ -7,3 +7,4 @@ numbers.push(6);
 numbers.pop();
 const index: number = numbers.indexOf(3);
 const sectionArray: number[] = numbers.slice(1, 4);
+const mapNum: number[] = numbers.map((num) => num * num);
