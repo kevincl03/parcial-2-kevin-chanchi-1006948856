@@ -5,3 +5,4 @@ const booleans: boolean[] = [true, false, false, true];
 
 numbers.push(6);
 numbers.pop();
+const index: number = numbers.indexOf(3);
