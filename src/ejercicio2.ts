@@ -17,3 +17,6 @@ const arrayNum: number[] = [10, 20, 30, 40, 50];
 const numMayor: number = arrayNum.find((num) => num > 25);
 const allPositive: boolean = arrayNum.every((num) => num >= 0);
 const oneMayor: boolean = arrayNum.some((num) => num > 40);
+const array1: number[] = [1, 2, 3];
+const array2: number[] = [4, 5, 6];
+const conactArrays: number[] = array1.concat(array2);
