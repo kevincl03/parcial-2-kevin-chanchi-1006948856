@@ -13,3 +13,5 @@ const sumNum: number = numbers.reduce((acum, num) => acum + num);
 const message: string = 'Esto es un ejemplo de cadena';
 const words: string[] = message.split(' ');
 const messageJoin: string = words.join(',');
+const arrayNum: number[] = [10, 20, 30, 40, 50];
+const numMayor: number = arrayNum.find((num) => num > 25);
