@@ -4,3 +4,4 @@ const booleans: boolean[] = [true, false, false, true];
 // tupla
 
 numbers.push(6);
+numbers.pop();
