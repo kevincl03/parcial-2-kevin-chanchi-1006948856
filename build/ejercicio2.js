@@ -1,0 +1,28 @@
+const numbers = [1, 2, 3, 4, 5];
+const fruits = ['Manzana', 'Pera', 'Kiwi', 'Piña'];
+const booleans = [true, false, false, true];
+numbers.push(6);
+numbers.pop();
+const index = numbers.indexOf(3);
+const sectionArray = numbers.slice(1, 4);
+const mapNum = numbers.map((num) => num * num);
+const paresNum = numbers.filter((num) => num % 2 === 0);
+const sumNum = numbers.reduce((acum, num) => acum + num);
+const message = 'Esto es un ejemplo de cadena';
+const words = message.split(' ');
+const messageJoin = words.join(',');
+const arrayNum = [10, 20, 30, 40, 50];
+const numMayor = arrayNum.find((num) => num > 25);
+const allPositive = arrayNum.every((num) => num >= 0);
+const oneMayor = arrayNum.some((num) => num > 40);
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const conactArrays = array1.concat(array2);
+const array3 = [5, 1, 4, 2, 3];
+const orderArray = array3.sort((a, b) => a - b);
+const reverseArray = orderArray.reverse();
+const names = ['Kevin', 'Andres', 'Camila', 'Sara'];
+const orderNames = names.sort();
+const numberInclude = arrayNum.includes(4);
+console.log(numberInclude);
+//# sourceMappingURL=ejercicio2.js.map
