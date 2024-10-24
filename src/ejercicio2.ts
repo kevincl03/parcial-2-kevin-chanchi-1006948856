@@ -16,3 +16,4 @@ const messageJoin: string = words.join(',');
 const arrayNum: number[] = [10, 20, 30, 40, 50];
 const numMayor: number = arrayNum.find((num) => num > 25);
 const allPositive: boolean = arrayNum.every((num) => num >= 0);
+const oneMayor: boolean = arrayNum.some((num) => num > 40);
