@@ -10,3 +10,6 @@ const sectionArray: number[] = numbers.slice(1, 4);
 const mapNum: number[] = numbers.map((num) => num * num);
 const paresNum: number[] = numbers.filter((num) => num % 2 === 0);
 const sumNum: number = numbers.reduce((acum, num) => acum + num);
+const message: string = 'Esto es un ejemplo de cadena';
+const words: string[] = message.split(' ');
+const messageJoin: string = words.join(',');
