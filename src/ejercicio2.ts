@@ -1,6 +1,6 @@
-const numbers: number[] = [1, 2, 3, 4, 5];
-const fruits: string[] = ['Manzana', 'Pera', 'Kiwi', 'Piña'];
-const booleans: boolean[] = [true, false, false, true];
+const numbers: number[] = [1, 2, 3, 4, 5];// 2.0
+const fruits: string[] = ['Manzana', 'Pera', 'Kiwi', 'Piña'];// 2.0
+const booleans: boolean[] = [true, false, false, true];// 2.0
 // tupla
 
 numbers.push(6);
